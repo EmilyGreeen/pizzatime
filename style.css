@@ -1,0 +1,140 @@
+body
+{
+	background: url(Images/pizza1.bmp);
+	background-position: 50% 0px;
+	font-family: 'Coming Soon', cursive;
+	text-align: center;
+	margin: o;
+}
+p{
+	text-align: center;
+}
+
+.left
+{
+	text-align:left;
+	padding-left:20px;
+	padding-right:20px;
+	padding-bottom:5px;
+}
+
+h1
+{
+	margin-top:0;
+	font-size: 120px;
+}
+.souspizza
+{
+	margin-top:0;
+	font-size: 80px;
+}
+h2
+{
+	border-style: solid;
+}
+h3
+{
+	margin:0;
+	font-size: 40px;
+}
+h4
+{
+	margin: 0;
+	font-size:40px;
+}
+#parent
+{
+	margin-top: 30px;
+	position:relative; 
+	height:auto;
+	width:1000px;
+	margin: 0 auto;
+}
+#header
+{
+	border-radius: 10px 10px 0 0;
+	background: #DDDDD1;
+	width: 1000px;
+	height: 700px;
+	float:left;
+}
+#headerpizza
+{
+	border-radius: 10px 10px 0 0;
+	background: #DDDDD1;
+	width: 1000px;
+	height: 650px;
+	float:left;
+}
+#Texte
+{
+	text-align:center;
+	padding: 5px;
+	margin-right: 5px;
+	border-radius: 0 0 10px 10px;
+	background: #DDDDD1;
+	width: 990px;
+	height: auto;
+	float:left;
+}
+#footer
+{
+	font-family: Comic Sans MS;
+	border-top : 1px solid black;
+	float: left;
+	text-align: center;
+	width:1000px;
+}
+#Menu
+{
+	
+	position:fixed;
+	border-radius: 15px;
+	margin-right:100px;
+	margin-top: 10px;
+	background: #EEDDFF;
+	width: 250px;
+	height: auto;
+	float: left;
+	z-index:1337
+}
+ul
+{
+	text-align:left;
+	list-style-type:none;
+	font-family:;
+	font-size:1.2em;
+}
+li
+{
+	padding-bottom:10px;
+	margin-left:-20px;
+	background-image: url(../Images/pizzaIcone.png);
+	background-repeat: no-repeat;
+	background-position: 0 0.32em;
+}
+.accueil
+{
+	text-align:center;
+	margin-top:10px;
+	padding-bottom:10px;
+	margin-left:-20px;
+	background-image: url(../Images/pizzaIcone.png);
+	background-repeat: no-repeat;
+	background-position: 0 0.32em;
+}
+li a
+{
+	color:black;
+	text-decoration:none;
+}
+li a:hover
+{
+	font-weight:bold;
+	
+
+}
+li a:hover:before
+{
+	content: url(pizzaIconepetite.png);
+}
